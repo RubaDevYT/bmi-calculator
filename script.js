@@ -9,11 +9,11 @@ function calculateBmi()
     let result = 0
 
     if(height == 0 && weight == 0){
-        alert("Fill out height and weight please!")
+        alert("Fill out height and weight please! 🙏")
     }else if(height == 0){
-        alert("Fill out height please!")
+        alert("Fill out height please! 🙏")
     }else if(weight == 0){
-        alert("Fill out weight please!")
+        alert("Fill out weight please! 🙏")
     }else{
         result = weight / (height * height)
 
